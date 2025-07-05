@@ -1,0 +1,17 @@
+ 01: Sign-in on
+ https://portal.azure.com/
+ 
+
+02: Install Azure CLI
+Install [Azure CLI) https://docs.microsoft.com/en-us/cli/azure/install-azure-cli-windows?tabs-az
+ Azure Version
+-az version
+Azure CLI Login
+-az login
+List Subscriptions
+- az account list
+Set Specific Subscription (if we have multiple subscriptions)
+-az account set -subscription="SUBSCRIPTION_ID"
+
+03: Install Visual Studio Code
+Install [VS Code] https://code.visualstudio.com/download
