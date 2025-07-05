@@ -1,0 +1,19 @@
+self hosted agent 
+
+for x64 bit 
+
+
+System prerequisites
+Configure your account
+Create the agent
+PS C:\> mkdir agent ; cd agent
+PS C:\agent> Add-Type -AssemblyName System.IO.Compression.FileSystem ; [System.IO.Compression.ZipFile]::ExtractToDirectory("$HOME\Downloads\vsts-agent-win-x64-4.258.1.zip", "$PWD")
+Configure the agentDetailed instructions
+PS C:\agent> .\config.cmd
+Optionally run the agent interactively
+If you didn't run as a service above:
+PS C:\agent> .\run.cmd
+That's it!
+
+to remove everything
+PS C:\config remove  #here youll ask PAT Tocken
