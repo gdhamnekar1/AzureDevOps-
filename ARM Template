@@ -15,3 +15,14 @@ Set Specific Subscription (if we have multiple subscriptions)
 
 03: Install Visual Studio Code
 Install [VS Code] https://code.visualstudio.com/download
+
+04: Install ARM templates plugin
+
+-Azure Resource Manager (ARM) Tools
+
+05: Create ARM template with .json extension and select ARM template langauge
+
+06: JQ Installation on GIT Bash
+
+-curl -L -o /usr/bin/jq.exe https://github.com/stedolan/jq/releases/latest/download/jq-win64.exe
+-jq --version
