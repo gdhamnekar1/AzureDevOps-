@@ -26,3 +26,18 @@ Install [VS Code] https://code.visualstudio.com/download
 
 -curl -L -o /usr/bin/jq.exe https://github.com/stedolan/jq/releases/latest/download/jq-win64.exe
 -jq --version
+
+
+Commnds to run the ARM Teplates
+1.  az deployment group create --resource-group <RGNamne> arm-vscode --template-file web-app.json --parameters web-app-parametors.json
+2.  az deployment group validate --resource-group arm-vscode --template-file web-app.json --parameters web-app-parameters.json
+3. az deployment group create --resource-group vinu9-rg  --template-file ARM_Web-App/web-app3.json --parameters ARM_Web-App/web-app-parameters.json
+4. az group delete --resource-group <RGName> #to delete the rg
+5. to delete entire deplyment
+    $ az resource delete \
+    > --resource-group devopsmela-rg \
+    >--name <devopsmela-dev>\
+    >--resource-type "copy n paste from .json in RG"
+
+
+6. what if or confirm with what if = in tereform we use terraform plan 
