@@ -41,3 +41,12 @@ Commnds to run the ARM Teplates
 
 
 6. what if or confirm with what if = in tereform we use terraform plan 
+   
+(--confirm-with-what-if or -c) 
+7. google < az cli deployment commands> and chose 1st link
+
+8. to delete specfic resource type
+-az group delete \
+ -- resource-group MyResourceGroup \
+ --name ExamplerVM \
+ --resource-type "Resource-type"
